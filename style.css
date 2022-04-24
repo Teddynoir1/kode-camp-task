@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+#process-section .text-section, #process-section .number-section {
+    width: 50%;
+}
+
+#process-section {
+    padding: 80px 0;
+}
+
+#process-section .text-section{
+    padding-top: 40px;
+    padding-right: 20px;
+}
+
+.text-section h1 {
+    font-size: 60px;
+}
+
+.text-section h6 {
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+.orange-btn {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff
+}
+
+.number-section {
+    align-items: center;
+    padding-left: 160px;
+    
+}
+
+.bucket {
+    display: flex;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.number-section .logo-section {
+    width: 20%;
+    
+}
+
+.number-section .logo-text {
+    width: 80%;
+}
+
+.number-section .img {
+    width: 100%;
+}
+
+.logo-text h5{
+    opacity: 0.6;
+    font-size: 17px;
+}
+
+.logo-text h3 {
+    font-weight: 700px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.logo-section1 {
+    position: absolute;
+    top: 160px;
+    right: 600px;
+}
+
+.logo-section2 {
+    position: absolute;
+    top: 320px;
+    right: 600px;
+}
+
+.logo-section3 {
+    position: absolute;
+    top: 475px;
+    right: 600px;
+}
+
+.bucket .line {
+    position: absolute;
+    top: 240px;
+    right: 565px;
+    width: 71px;
+}
+
+.bucket .line2 {
+    position: absolute;
+    top: 400px;
+    right: 565px;
+    width: 71px;
+}
+
+
+
+.offer-section {
+    background-color: #f2f2f2;
+}
+
+.main-arrow {
+    position: relative;
+    left:762px;
+    padding: 20px 0;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1E1B1B;
+    text-decoration: none;
+    width: 40%;
+}
+
+.main-arrow p,a{
+    text-decoration: none;
+    color: #1E1B1B;
+}
+
+.Text2-section h1 {
+    font-size: 55px;
+    text-align: center;
+    padding: 0 40px 0 40px;
+}
+
+.Text2-section h6 {
+    font-size: 20px;
+    opacity: 0.6;
+    text-align: center;
+    padding: 45px 0 16px 0;
+}
+
+.row1 {
+    display: flex;
+}
+
+.row1{
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.row2 {
+    display: flex;
+}
+
+.row2{
+    justify-content: space-between;
+    padding: 0 0 60px 0;
+}
+
+.image-section {
+     padding: 40px 60px 0 60px;
+
+}
+
+.main-container {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.Third-Section {
+    width: 100%;
+    display: flex;
+}
+
+.car-section {
+    background: url(img/Image\ 1.png);
+    width: 320px;
+    height: 354px;
+    background-size: cover;
+}
+
+.box-section {
+    width: 50%;
+    height: 355px;
+    background-color: #FF6433;
+    justify-content: center;
+}
+
+.box-section h3 {
+    color: #fff;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    padding: 50px 20px 30px 50px;
+}
+
+.black-btn {
+     background: #000;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    color: #fff;
+    margin: 10px 20px 40px 80px;
+}
+
+.plug-section {
+    background: url(img/ovGrEUgrkyE.png);
+    width: 50%;
+    height: 356px;
+    background-size: cover;
+}
+
+.experience-section {
+    background-color: #f2f2f2;
+    width: 0 auto;
+}
+
+.experience {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px 110px;
+}
+
+.text1 h2{
+    justify-content: space-between;
+    color: #661CE7;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    text-align: center;
+    letter-spacing: -0.03em;
+}
+
+.text1 h6{
+    justify-content: space-between;
+    color: #1E1B1B;
+    opacity: 0.7;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.brand1-section{
+    padding-top: 70px;
+}
+
+.brand1-section h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+.brand2-section img {
+    width: 100%;
+    padding: 0px 110px 30px 110px;
+}
