@@ -118,7 +118,7 @@
 }
 
 #quote-section .left-section .image-box {
-    width: 5%;
+    width: 10%;
     margin-right: 30px;
 }
 
@@ -266,6 +266,16 @@
 
 #offers-section h2, #offers-section h5 {
     text-align: center;
+}
+
+#offers-section h5 {
+    text-align: center;
+    font-size: 16px;
+}
+
+#offers-section h2 {
+    text-align: center;
+    font-size: 30px;
 }
 
 #offers-section .offers .offer-box {
