@@ -1137,6 +1137,21 @@ margin-bottom: 20px
     font-size: 20px;
     }
 
+    #offers-section .offers {
+       flex-direction: column;
+    }
+
+    #offers-section .offers .offer-box {
+        background-color: #fff;
+        height: 232px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
     #testimony-section .customer h2 {
         font-size: 22px;
         text-align: center;
